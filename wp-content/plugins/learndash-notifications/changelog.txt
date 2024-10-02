@@ -1,0 +1,21 @@
+= [1.6.3] =
+
+* Fix - "user hasn't completed a quiz" condition field doesn't have additional options.
+* Fix - "X days before course expires" trigger doesn't work as expected.
+* Fix - User enrolled into course notification is not triggered when a user is enroll via LD Zapier app course enrollment action.
+
+= [1.6.2] =
+
+Feature: Add "Exclude pre-ordered course" option on Enroll into a course trigger.
+Tweak: Better object select2 fields (course, lesson, etc) search results to support pagination.
+Fix: Undefined array key error on Essay question has been put into graded status trigger.
+Fix: Any object option in object field (course, lesson, etc) not saving.
+Fix: Fatal error when using Assignment has been uploaded trigger and Assignment has been uploaded condition.
+Fix: A scheduled lesson is available to user email not sending.
+
+
+= [1.6.1] =
+
+Feature: new action hooks 'learndash_notifications_email_sent' and 'learndash_notifications_email_failed'.
+Fix: triggering objects settings in notification model don't work correctly filtering events that triggers set up notifications.
+Fix: user can't select specific quiz associated with a lesson because quiz was only direct child to topic. Now it can be direct child of course, lesson, or topic.

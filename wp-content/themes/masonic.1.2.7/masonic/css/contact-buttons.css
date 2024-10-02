@@ -1,0 +1,126 @@
+/*!
+ * Contact Buttons Plugin Demo 0.1.0
+ * https://github.com/joege/contact-buttons-plugin
+ *
+ * Copyright 2015, José Gonçalves
+ *
+ * Licensed under the MIT license:
+ * http://www.opensource.org/licenses/MIT
+ */
+
+ #contact-buttons-bar {
+  position: fixed;
+  /*top: 120px;*/
+  top:40px;
+  right: 5px;
+  width: 50px;
+  z-index:999;
+}
+
+
+
+@media screen and (min-width: 800px) {  
+  #contact-buttons-bar {
+    right: 2%;
+  }
+}
+
+
+#contact-buttons-bar.slide-on-scroll {
+  position: absolute;
+}
+
+.contact-button-link  {
+  display: block;
+  width: 40px;
+  height: 48px;
+  padding: 0;
+  /*margin-bottom: 1px;*/
+  text-align: center;
+  line-height: 50px;
+  font-size: 22px;
+  background: #8e8e93;
+  color: #fff;
+  position: relative;
+  float:right;
+  left: 0;
+
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+
+  -webkit-transition: width 250ms;
+     -moz-transition: width 250ms;
+          transition: width 250ms;
+}
+.contact-button-link:hover,
+.contact-button-link:focus,
+.contact-button-link:active {
+  color: #fff;
+  padding-left: 20px;
+  width: 70px;
+}
+.contact-button-link.cb-hidden {
+  	left: 50px;
+}
+.contact-button-link.facebook {
+  background: #3b5998;
+}
+.contact-button-link.linkedin {
+  background: #0077b5;
+}
+
+.contact-button-link.twitter {
+  background: #00aced;
+}
+.contact-button-link.youtube {
+  background: #e52d27;
+}
+
+.contact-button-link.pinterest {
+  background: #C92228;
+}
+
+.contact-button-link.instagram {
+  background: #675fce;
+} 
+
+
+
+.contact-button-link.blog {
+  /* background: #ffa500; not using this due to clash in colour*/
+  /* the background for the blog social button should be transparent or else it doesn't match
+  with the icon */
+  background: #fff;
+}
+
+.contact-button-link.gplus {
+  background: #db4437;
+}
+
+.contact-button-link.eventbrite {
+  /* background: #ffa500; not using this due to clash in colour*/
+  background: #ff5000;
+}
+
+
+.contact-button-link.separated {
+  margin-top: 1em;
+}
+
+.show-hide-contact-bar,
+.contact-button-link.show-hide-contact-bar:focus,
+.contact-button-link.show-hide-contact-bar:active {
+  background: transparent;
+  color: #000;
+  border: 0;
+  outline: 0;
+  padding: 0;
+  width: 40px;
+}
+.contact-button-link.show-hide-contact-bar:hover {
+  color: #000;
+  background: #ccc;
+  padding: 0;
+  width: 40px;
+}
