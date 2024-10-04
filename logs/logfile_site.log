@@ -1,0 +1,108 @@
+Array
+(
+)
+Array
+(
+)
+Array
+(
+    [username] => guanw
+    [password] => Peter83
+    [lastaccess] => 1727970142
+    [firstlogin] => 
+    [userbranch] => 14
+    [usergroup] => 14
+    [user] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => MRBS\User
+            [username] => guanw
+            [display_name] => guanw
+            [email] => guanw@vaughan.ca
+            [level] => 2
+            [data:protected] => Array
+                (
+                )
+
+        )
+
+    [csrf_token] => d1f97d6e924e4efb4f72b0f7f7a64c9140de73ba4620767c8852d4c8c0479f39
+    [employeeid] => 759
+    [branch_stats] => 14
+    [desk_stats] => Information
+    [full_name] => Weiwei Guan
+    [home_branch] => 14
+)
+Array
+(
+)
+Array
+(
+    [username] => guanw
+    [password] => Peter83
+    [lastaccess] => 1727970142
+    [firstlogin] => 
+    [userbranch] => 14
+    [usergroup] => 14
+    [user] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => MRBS\User
+            [username] => guanw
+            [display_name] => guanw
+            [email] => guanw@vaughan.ca
+            [level] => 2
+            [data:protected] => Array
+                (
+                )
+
+        )
+
+    [csrf_token] => d1f97d6e924e4efb4f72b0f7f7a64c9140de73ba4620767c8852d4c8c0479f39
+    [employeeid] => 759
+    [branch_stats] => 14
+    [desk_stats] => Information
+    [full_name] => Weiwei Guan
+    [home_branch] => 14
+)
+Array
+(
+)
+Array
+(
+)
+Array
+(
+)
+Array
+(
+)
+Array
+(
+)
+Array
+(
+    [username] => guanw
+    [password] => Peter83
+    [lastaccess] => 1727970142
+    [firstlogin] => 
+    [userbranch] => 14
+    [usergroup] => 14
+    [user] => __PHP_Incomplete_Class Object
+        (
+            [__PHP_Incomplete_Class_Name] => MRBS\User
+            [username] => guanw
+            [display_name] => guanw
+            [email] => guanw@vaughan.ca
+            [level] => 2
+            [data:protected] => Array
+                (
+                )
+
+        )
+
+    [csrf_token] => d1f97d6e924e4efb4f72b0f7f7a64c9140de73ba4620767c8852d4c8c0479f39
+    [employeeid] => 759
+    [branch_stats] => 14
+    [desk_stats] => Information
+    [full_name] => Weiwei Guan
+    [home_branch] => 14
+)
